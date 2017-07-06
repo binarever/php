@@ -1,0 +1,6 @@
+SELECT IFNULL(NULL,'Value is NULL') AS result1,
+IFNULL(1>2,'NULL result') AS result2;
+
+SELECT NULLIF(TRUE,TRUE) AS istrue,
+NULLIF(TRUE,FALSE) AS isfalse,
+NULLIF(TRUE,NULL) AS isnull;
